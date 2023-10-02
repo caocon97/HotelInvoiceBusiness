@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  overflow: hidden;
+  background: aliceblue;
+  width: 100vw;
+  margin: auto;
+  padding: 20px;
+  font-size: 16px;
+}
+.-apd-common-header {
+  text-align: center;
+}
+.button {
+  background-color: #334a78;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  opacity: 0.8;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 1;
+}
+.submit {
+  width: 80vw;
+}
